@@ -3,4 +3,6 @@ export type Feature = {
   icon: string;
   title: string;
   description: string;
+  buttonText: string;
+  buttonLink: string;
 };
