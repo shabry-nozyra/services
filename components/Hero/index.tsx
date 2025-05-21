@@ -19,13 +19,14 @@ const Hero = () => {
                 NOZYRA IT Solutions
               </h4>
               <h1 className="mb-5 pr-16 text-4xl font-bold text-black dark:text-white xl:text-6xl ">
-                Built to Do What's
+                The best solution
+
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Next
+                  for you
                 </span>
               </h1>
               <p>
-                Find new opportunities. Create experiences your customers actually care about. Take control of your future. It all happens in the Marketplace designed around you.
+                NOZYRA is dedicated to have people make use of our technology solutions. So, wether it’s mobile consumer, applications or services, we’ll have you covered.
               </p>
 
               <div className="mt-10">
@@ -68,14 +69,14 @@ const Hero = () => {
                 />
                 <div className=" relative aspect-700/444 w-full">
                   <Image
-                    className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.svg"
+                    className="shadow-solid-l dark:hidden rounded-3xl"
+                    src="/images/hero/pexels-walls-io-440716388-15555858.jpg"
                     alt="Hero"
                     fill
                   />
                   <Image
-                    className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
+                    className="hidden shadow-solid-l dark:block rounded-3xl"
+                    src="/images/hero/pexels-walls-io-440716388-15555858.jpg"
                     alt="Hero"
                     fill
                   />
