@@ -23,7 +23,19 @@ const menuData: Menu[] = [
         title: "Professional services",
         newTab: false,
         path: "/error",
-      }]
+      },
+      {
+        id: 52,
+        title: "Events",
+        newTab: false,
+        path: "/error",
+      },
+     {
+        id: 53,
+        title: "Find a partner",
+        newTab: false,
+        path: "/error",
+      },]
   },
   {
     id: 2.4,
