@@ -7,13 +7,25 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/",
   },
+  // {
+  //   id: 2,
+  //   title: "Features",
+  //   newTab: false,
+  //   path: "/#features",
+  // },
   {
-    id: 2,
-    title: "Features",
+    id: 5,
+    title: "Grow with NOZYRA",
     newTab: false,
-    path: "/#features",
-  },
+    submenu: [
       {
+        id: 51,
+        title: "Professional services",
+        newTab: false,
+        path: "/error",
+      }]
+  },
+  {
     id: 2.4,
     title: "Marketplace",
     newTab: false,
@@ -60,7 +72,7 @@ const menuData: Menu[] = [
         newTab: false,
         path: "/support",
       },
-       {
+      {
         id: 33,
         title: "Contact Us",
         newTab: false,
